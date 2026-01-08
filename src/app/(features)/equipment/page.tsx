@@ -1,6 +1,8 @@
 import { getEquipmentData } from "@/features/equipment/actions/equipment-actions";
 import { EquipmentForm } from "@/features/equipment/components/equipment-form";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Equipamiento | Home Gym",
   description: "Configurá tu equipamiento de gimnasio",

@@ -1,6 +1,8 @@
 import { getEquipmentData } from "@/features/equipment/actions/equipment-actions";
 import { LoadCalculator } from "@/features/equipment/components/load-calculator";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Calculadora de carga | Home Gym",
   description: "Calculá los discos necesarios para tu peso objetivo",
